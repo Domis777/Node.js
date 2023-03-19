@@ -1,0 +1,170 @@
+{
+	"info": {
+		"_postman_id": "8ae7e797-2b51-478c-b2bc-dfd200132f41",
+		"name": "Video games",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25198314"
+	},
+	"item": [
+		{
+			"name": "Get Many",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{address}}/api/video-games",
+					"host": [
+						"{{address}}"
+					],
+					"path": [
+						"api",
+						"video-games"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Many",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"title\": \"Video Game22\",\r\n        \"price\": 89.99,\r\n        \"information\": {\r\n            \"genres\": [\r\n                \"Action-adventure\",\r\n                \"Hack and slash\",\r\n                \"Horror\",\r\n                \"RPG\"\r\n            ],\r\n            \"platforms\": [\r\n                \"PlayStation 4\",\r\n                \"PlayStation 5\",\r\n                \"Iphone\"\r\n            ],\r\n            \"publisher\": \"Sega\"\r\n        },\r\n        \"images\": [\r\n            \"https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/aqZdSwWyy9JcQ66BxHDKrky6.jpg\",\r\n            \"https://cdn.arstechnica.net/wp-content/uploads/2022/11/God-of-War-Ragnarok_20221017164959-scaled.jpg\",\r\n            \"https://baitukas.lt/wp-content/uploads/2022/11/1-2.jpg\",\r\n            \"https://cdn.mos.cms.futurecdn.net/o2h4wsfCpYyXirdEBLCJ2n.jpg\"\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{address}}/api/video-games",
+					"host": [
+						"{{address}}"
+					],
+					"path": [
+						"api",
+						"video-games"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get One",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{address}}/api/video-games/:id",
+					"host": [
+						"{{address}}"
+					],
+					"path": [
+						"api",
+						"video-games",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put One",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"title\": \"Video Game30\",\r\n        \"price\": 89.99,\r\n        \"information\": {\r\n            \"genres\": [\r\n                \"Action-adventure\",\r\n                \"Hack and slash\",\r\n                \"Horror\",\r\n                \"RPG\"\r\n            ],\r\n            \"platforms\": [\r\n                \"PlayStation 4\",\r\n                \"PlayStation 5\",\r\n                \"Iphone\"\r\n            ],\r\n            \"publisher\": \"Sega\"\r\n        },\r\n        \"images\": [\r\n            \"https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/aqZdSwWyy9JcQ66BxHDKrky6.jpg\",\r\n            \"https://cdn.arstechnica.net/wp-content/uploads/2022/11/God-of-War-Ragnarok_20221017164959-scaled.jpg\",\r\n            \"https://baitukas.lt/wp-content/uploads/2022/11/1-2.jpg\",\r\n            \"https://cdn.mos.cms.futurecdn.net/o2h4wsfCpYyXirdEBLCJ2n.jpg\"\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{address}}/api/video-games/2",
+					"host": [
+						"{{address}}"
+					],
+					"path": [
+						"api",
+						"video-games",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete One",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{address}}/api/video-games/:id",
+					"host": [
+						"{{address}}"
+					],
+					"path": [
+						"api",
+						"video-games",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{token}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

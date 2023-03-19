@@ -1,0 +1,276 @@
+{
+  "user": [
+    {
+      "userId": 1,
+      "email": "admin1@example.com",
+      "name": "admin1",
+      "surname": "surname7",
+      "password": "password7",
+      "phone": "+37067777777",
+      "profileImg": [
+        "https://thumbs.dreamstime.com/b/user-icon-person-black-symbol-human-avatar-silhouette-admin-profile-picture-illustration-vector-isolated-white-203619043.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS9WDX7JlmoXx1-KXqPeJAwiS0xWGDmjBEWw&usqp=CAU"
+      ],
+      "role": "ADMIN"
+    },
+    {
+      "userId": 2,
+      "email": "admin2@example.com",
+      "name": "admin2",
+      "surname": "surname7",
+      "password": "password6",
+      "phone": "+37066666666",
+      "profileImg": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhmsisZr4Zk2ThIzxNlaQvSC-XRAZoVWhq6A&usqp=CAU",
+        "https://thumbs.dreamstime.com/z/admin-icon-vector-male-user-person-profile-avatar-gear-cogwheel-settings-configuration-flat-color-glyph-pictogram-150138136.jpg"
+      ],
+      "role": "ADMIN"
+    },
+    {
+      "userId": 3,
+      "email": "user1@example.com",
+      "name": "name1",
+      "surname": "surname1",
+      "password": "password1",
+      "phone": "+37067779988",
+      "profileImg": [
+        "https://i.redd.it/s0u1qmhwg6c21.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeGLEH6Ebhdwoj6PYnuq02nrN9xsmtNTns0Q&usqp=CAU"
+      ],
+      "role": "USER"
+    },
+    {
+      "userId": 4,
+      "email": "user22@example.com",
+      "name": "name22",
+      "surname": "surname22",
+      "password": "password22",
+      "phone": "+37061112255",
+      "profileImg": [
+        "https://img.freepik.com/premium-vector/cute-gamer-girl-playing-mobile-games-logo-template_162048-207.jpg"
+      ],
+      "role": "USER"
+    },
+    {
+      "userId": 5,
+      "email": "user3@example.com",
+      "name": "name3",
+      "surname": "surname3",
+      "password": "password3",
+      "phone": "+37065559912",
+      "profileImg": [
+        "https://static.vecteezy.com/system/resources/previews/007/698/902/original/geek-gamer-avatar-profile-icon-free-vector.jpg",
+        "https://i.etsystatic.com/39152123/r/il/6d6bbc/4579882779/il_fullxfull.4579882779_st6w.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdaFCk_DcplnEdQovCY6EzRZLA0b-xgAMk_A&usqp=CAU"
+      ],
+      "role": "USER"
+    }
+  ],
+
+  "videoGames": [
+    {
+      "id": 1,
+      "title": "God of War Ragnarök",
+      "information": {
+        "platforms" : ["PlayStation 5", "PlayStation 4"],
+        "publisher" : "Sony Interactive Entertainment",
+        "genres": ["Action-adventure", "Hack and slash"]
+      },
+      "price": 69.99,
+      "image": [
+        "https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/aqZdSwWyy9JcQ66BxHDKrky6.jpg",
+        "https://cdn.arstechnica.net/wp-content/uploads/2022/11/God-of-War-Ragnarok_20221017164959-scaled.jpg",
+        "https://baitukas.lt/wp-content/uploads/2022/11/1-2.jpg",
+        "https://cdn.mos.cms.futurecdn.net/o2h4wsfCpYyXirdEBLCJ2n.jpg"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "title": "Dead Space Remake",
+      "information": {
+        "platforms" : ["PlayStation 5", "Xbox Series X/S", "Windows"],
+        "publisher" : "Electronic Arts",
+        "genres": ["Survival horror"]
+      },
+      "price": 69.99,
+      "image": [
+        "https://tryhardguides.com/wp-content/uploads/2022/08/featured-dead-space-remake-news.jpg",
+        "https://image-cdn.essentiallysports.com/wp-content/uploads/dead-space-remake-gameplay-previ.jpg",
+        "https://cdn.wccftech.com/wp-content/uploads/2023/01/WCCFdeadspaceremake16.jpg",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/1693980/ss_b4b02766216117747640523bb6e258d44053e355.1920x1080.jpg?t=1675296307"
+      ],
+      "rating": 3.7
+    },
+    {
+      "id": 3,
+      "title": "Castillo Protocol",
+      "information": {
+        "platforms" : ["PlayStation 4", "PlayStation 5", "Windows", "Xbox One", "Xbox Series X/S"],
+        "publisher" : "Krafton",
+        "genres": ["Survival horror", "Action"]
+      },
+      "price": 59.99,
+      "image": [
+        "https://image.api.playstation.com/vulcan/ap/rnd/202206/0222/a8y4xUnw4oThZxHuEBZvDzpz.jpg",
+        "https://cdn.akamai.steamstatic.com/steam/apps/1544020/ss_fb44ab376fe39f26877d5d4de6b1ae0868688a6e.1920x1080.jpg?t=1674069251",
+        "https://assets2.rockpapershotgun.com/The-Callisto-Protocol_kqZO0qX.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/The-Callisto-Protocol_kqZO0qX.jpg",
+        "https://www.videogameschronicle.com/files/2021/02/The-Callisto-Protocol-a.jpg"
+      ],
+      "rating": 5.0
+    },
+    {
+      "id": 4,
+      "title": "Elden Ring",
+      "information": {
+        "platforms" : ["PlayStation 4", "PlayStation 5", "Windows", "Xbox One", "Xbox Series X/S"],
+        "publisher" : "Bandai Namco Entertainment",
+        "genres": ["Action", "Role-playing"]
+      },
+      "price": 39.99,
+      "image": [
+        "https://i.ytimg.com/vi/JldMvQMO_5U/maxresdefault.jpg",
+        "https://i0.wp.com/news.xbox.com/en-us/wp-content/uploads/sites/2/2022/12/ER_PVP-Patch_Thumbnail_4K-ec9e31e375de8a1cbd11.jpg?resize=1200%2C675&ssl=1",
+        "https://cdn.akamai.steamstatic.com/steam/apps/1245620/ss_3e556415d1bda00d749b2166ced264bec76f06ee.1920x1080.jpg?t=1674441703",
+        "https://www.gameinformer.com/sites/default/files/styles/full/public/2022/02/22/083b398f/elden_ring1.jpg"
+      ],
+      "rating": 4.9
+    },
+    {
+      "id": 5,
+      "title": "Red Dead Redemption 2",
+      "information": {
+        "platforms" : ["PlayStation 4", "PlayStation 5", "Windows", "Xbox One", "Xbox Series X/S"],
+        "publisher" : "Rockstar Games",
+        "genres": ["Action", "Adventure"]
+      },
+      "price": 49.99,
+      "image": [
+        "https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.png",
+        "https://sm.ign.com/ign_nordic/gallery/b/brand-new-/brand-new-4k-screenshots-of-red-dead-2-on-pc_vzqv.jpg",
+        "https://assets.reedpopcdn.com/red-dead-redemption-2-review-1540465569009.jpg/BROK/thumbnail/1600x900/quality/100/red-dead-redemption-2-review-1540465569009.jpg",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/ss_bac60bacbf5da8945103648c08d27d5e202444ca.1920x1080.jpg?t=1671485009"
+      ],
+      "rating": 2.1
+    },
+    {
+      "id": 6,
+      "title": "Grand Theft Auto V",
+      "information": {
+        "platforms" : ["PlayStation 4", "PlayStation 5", "Windows", "Xbox One", "Xbox Series X/S"],
+        "publisher" : "Rockstar Games",
+        "genres": ["Action", "Adventure"]
+      },
+      "price": 29.99,
+      "image": [
+        "https://expatguideturkey.com/wp-content/uploads/2023/01/gta-5-how-many-gb-here-are-the-gta-v-system-requirements-2023-780x470.webp",
+        "http://media.rockstargames.com/rockstargames/img/global/news/upload/1_gtavpc_03272015.jpg",
+        "https://cdn.mobilesyrup.com/wp-content/uploads/2020/01/gta-v-sale-scaled.jpg",
+        "https://images.g2a.com/1024x768/1x1x0/grand-theft-auto-v-pc-rockstar-key-global-i10000000788017/59e5ee54ae653a08e46af093"
+      ],
+      "rating": 3.8
+    },
+    {
+      "id": 7,
+      "title": "Stray",
+      "information": {
+        "platforms" : ["PlayStation 4", "PlayStation 5", "Windows"],
+        "publisher" : "Annapurna Interactive",
+        "genres": ["Adventure"]
+      },
+      "price": 19.99,
+      "image": [
+        "https://i.ytimg.com/vi/4uP2MyUL49s/maxresdefault.jpg",
+        "https://s.yimg.com/uu/api/res/1.2/Ve2cBM.PmejX5GgLXG4zSg--~B/aD0yMTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2022-07/451825c0-06ae-11ed-8d2f-c6bee5bbef2a.cf.jpg",
+        "https://www.slantmagazine.com/wp-content/uploads/2022/08/stray.jpg",
+        "https://s.yimg.com/uu/api/res/1.2/cmzCoL1fTRq3vpVq7WPLJg--~B/aD0yMTYwO3c9Mzg0MDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2022-06/3cc4cb90-e6d7-11ec-bf95-e13207e799f9.cf.jpg"
+      ],
+      "rating": 4.9
+    },
+    {
+      "id": 8,
+      "title": "The Witcher 3: Wild Hunt",
+      "information": {
+        "platforms" : ["PlayStation 4", "PlayStation 5", "Windows", "Xbox One", "Xbox Series X/S", "Nintendo Switch"],
+        "publisher" : "CD Projekt",
+        "genres": ["Action", "Role-playing"]
+      },
+      "price": 39.99,
+      "image": [
+        "https://cdn1.epicgames.com/offer/14ee004dadc142faaaece5a6270fb628/EGS_TheWitcher3WildHuntCompleteEdition_CDPROJEKTRED_S1_2560x1440-82eb5cf8f725e329d3194920c0c0b64f",
+        "https://baitukas.lt/wp-content/uploads/2023/01/9-2.jpg",
+        "https://cdn.akamai.steamstatic.com/steam/apps/292030/ss_0901e64e9d4b8ebaea8348c194e7a3644d2d832d.1920x1080.jpg?t=1675178392",
+        "https://cdn.vox-cdn.com/thumbor/6HUYnfetJodozWpQgLOBwtq_ioU=/297x0:1917x1080/1280x854/cdn.vox-cdn.com/uploads/chorus_image/image/46312824/The_Witcher_3_Wild_Hunt_The_sirens_may_look_beautiful_in_the_water-but_once_they_re_out_of_it-they_change_into_deadly-flying_creatures..0.0.png"
+      ],
+      "rating": 5
+    },
+    {
+      "id": 9,
+      "title": "Monster Hunter Rise",
+      "information": {
+        "platforms" : ["PlayStation 4", "PlayStation 5", "Windows", "Xbox One", "Xbox Series X/S", "Nintendo Switch"],
+        "publisher" : "Capcom",
+        "genres": ["Action", "Adventure"]
+      },
+      "price": 39.99,
+      "image": [
+        "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/games/switch/m/monster-hunter-rise-switch/hero",
+        "https://d1lss44hh2trtw.cloudfront.net/assets/article/2022/01/09/monster-hunter-rise-shows-why-the-series-belongs-on-pc_feature.jpg",
+        "https://asset.vg247.com/monster_hunter_rise_sunbreak_art_01.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/monster_hunter_rise_sunbreak_art_01.jpg",
+        "https://2game.com/wp/wp-content/uploads/2022/01/monster-hunter-rise_6125682.jpg"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": 10,
+      "title": "Hogwarts Legacy",
+      "information": {
+        "platforms" : ["PlayStation 4", "PlayStation 5", "Windows", "Xbox One", "Xbox Series X/S", "Nintendo Switch"],
+        "publisher" : "Warner Bros. Games",
+        "genres": ["Action", "Role-playing"]
+      },
+      "price": 69.99,
+      "image": [
+        "https://cdn1.epicgames.com/offer/e97659b501af4e3981d5430dad170911/EGS_HogwartsLegacy_AvalancheSoftware_S1_2560x1440-2baf3188eb3c1aa248bcc1af6a927b7e",
+        "https://assets-prd.ignimgs.com/2022/11/11/combat-1668192615551.jpg",
+        "https://baitukas.lt/wp-content/uploads/2023/01/777-1.jpg",
+        "https://assets-prd.ignimgs.com/2022/03/17/screen-shot-2022-03-17-at-4-02-38-pm-1647551164721.png"
+      ],
+      "rating": 4.0
+    },
+    {
+      "id": 11,
+      "title": "It Takes Two",
+      "information": {
+        "platforms" : ["PlayStation 4", "PlayStation 5", "Windows", "Xbox One", "Xbox Series X/S", "Nintendo Switch"],
+        "publisher" : "Electronic Arts",
+        "genres": ["Action", "Adventure", "Platform"]
+      },
+      "price": 19.99,
+      "image": [
+        "https://i.ytimg.com/vi/ohClxMmNLQQ/maxresdefault.jpg",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/1426210/ss_a15164ddd357ab3c0b2aff575a6b215b2d91b406.1920x1080.jpg?t=1666121755",
+        "https://thenerdstash.com/wp-content/uploads/2022/02/it-takes-two-game-of-year.jpg",
+        "https://variety.com/wp-content/uploads/2022/04/It-Takes-Two-movie-e1650407466377.jpg"
+      ],
+      "rating": 1.5
+    },
+    {
+      "id": 12,
+      "title": "Horizon Forbidden West",
+      "information": {
+        "platforms" : ["PlayStation 4", "PlayStation 5"],
+        "publisher" : "Sony Interactive Entertainment",
+        "genres": ["Action", "Role-playing"]
+      },
+      "price": 69.99,
+      "image": [
+        "https://image.api.playstation.com/vulcan/ap/rnd/202107/3100/HO8vkO9pfXhwbHi5WHECQJdN.png",
+        "https://cdn.vox-cdn.com/thumbor/KjBekT_U49q6FhoRssUAk6ZqVA8=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/23236810/Horizon_Forbidden_West_20220211184602.jpg",
+        "https://s.yimg.com/uu/api/res/1.2/U1XZcBwFvGDIo3.6nRl2FQ--~B/aD0xNDI1O3c9MjUzNDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2022-02/439b8650-8f59-11ec-8f7b-244cd88c3146.cf.jpg",
+        "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/31377b14b840107c6600ab35a1aed332.jpg"
+      ],
+      "rating": 3.5
+    }
+  ]
+}

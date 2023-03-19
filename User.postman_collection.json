@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "3a8376da-5df7-4584-bd0f-824fe789bacc",
+		"name": "User",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25198314"
+	},
+	"item": [
+		{
+			"name": "User Register",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const res = pm.response.json();\r",
+							"pm.environment.set('token', res.token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"test1@email.com\",\r\n    \"password\": \"Test123!\",\r\n    \"passwordComfirmation\": \"Test123!\",\r\n    \"name\": \"name\",\r\n    \"surname\": \"surname\",\r\n    \"phone\": \"+37061122333\",\r\n    \"images\": [\r\n        \"https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80\",\r\n        \"https://zipmex.com/static/d1af016df3c4adadee8d863e54e82331/Twitter-NFT-profile.jpg\",\r\n        \"https://wallpapers.com/images/featured/s52z1uggme5sj92d.jpg\"\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{address}}/api/auth/register",
+					"host": [
+						"{{address}}"
+					],
+					"path": [
+						"api",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User Login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const res = pm.response.json();\r",
+							"pm.environment.set('token', res.token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"admin1@example.com\",\r\n    \"password\": \"password7\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{address}}/api/auth/login",
+					"host": [
+						"{{address}}"
+					],
+					"path": [
+						"api",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User auth",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{address}}/api/auth/auth",
+					"host": [
+						"{{address}}"
+					],
+					"path": [
+						"api",
+						"auth",
+						"auth"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
