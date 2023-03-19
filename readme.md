@@ -1,18 +1,36 @@
-# Express TypeScript project
+# Server Node.js Application
 
-## Required programs
-  * [Node](https://nodejs.org/en/) v16 or later
+This is an explanaition how to install and launch "Server Node.js".
+
+## System requirements
+* [Node.js](https://nodejs.org/en/) v16 or later
+* [Postman](https://www.postman.com/downloads/) v16 or later
+* [MySql](https://dev.mysql.com/downloads/installer/) v16 or later
   
-## Project Setup
-  * copy file [.env.example](.env.example) and rename it to __.env__
-  * define constants if file __.env__
-  * instal libraries - open terminal in root directory and run command:
+To view application, you must launch server.
+
+## Launching Server application
+<div style="padding-left: 25px">
+
+### **Installation**
+> Open terminal in __./server__ folder and run: 
+
 ```bash
 npm i
 ```
-  
-## Project development launch
-open terminal in root directory and run command:
+or
 ```bash
-npm run start
+npm install
 ```
+
+</br>
+
+### **Launch**
+> Open terminal in __./server__ folder and run:
+```bash
+npm start
+``` 
+</div>
+
+## View Code
+You can view code in [online GitHub editor](https://github.dev/Domis777/Node.js).
